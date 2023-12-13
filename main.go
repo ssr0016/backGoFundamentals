@@ -3,6 +3,7 @@ package main
 import "goFundamental/utils"
 
 func main() {
+	//---------------------------------------------------
 	// Variables
 	// utils.DeclaringASingleVariable()
 	// utils.DeclaringAVariableWithAnInitialValue()
@@ -11,6 +12,7 @@ func main() {
 	// utils.ShortHansDeclaration()
 	// utils.VariablesAssignedValuesAndComputedDuringRuntime()
 
+	//---------------------------------------------------
 	//Types
 	// utils.Bool()
 	// utils.SignedIntegers()
@@ -19,12 +21,14 @@ func main() {
 	// utils.StringType()
 	// utils.TypeConversion()
 
+	//---------------------------------------------------
 	//Constant
 	// utils.DeclaringAConstant()
 	// utils.DeclaringAGroupOfConstants()
 	// utils.NemeriConstants()
 	// 	utils.NumericExpressions()
 
+	//---------------------------------------------------
 	// Functions
 	// utils.CalculateBill(100, 5)
 	// price, no := 90, 6
@@ -47,7 +51,18 @@ func main() {
 	//Blank identifier
 	// area, _ := utils.RectProps3(10.8, 5.6)
 	// fmt.Printf("Area %f", area)
-	area, _ := 10.8, 5.6
-	utils.RectProps3(area, 5.6)
+	// area, _ := 10.8, 5.6
+	// utils.RectProps3(area, 5.6)
 
+	//---------------------------------------------------
+	//Packages
+	// utils.ImplementationExample()
+
+	//---------------------------------------------------
+	//Control Flow.. If else statement
+	// utils.EvenOdd()
+	// utils.EvenOdd1()
+	// utils.LessOrGreater()
+	utils.EvenOdd2()
+	utils.IdiomaticEvenOdd()
 }
