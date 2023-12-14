@@ -63,6 +63,12 @@ func main() {
 	// utils.EvenOdd()
 	// utils.EvenOdd1()
 	// utils.LessOrGreater()
-	utils.EvenOdd2()
-	utils.IdiomaticEvenOdd()
+	// utils.EvenOdd2()
+	// utils.IdiomaticEvenOdd()
+
+	//---------------------------------------------------
+	//Loops
+	// utils.ForLoop()
+	utils.ForLoopBreak()
+
 }
