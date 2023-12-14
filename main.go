@@ -69,6 +69,14 @@ func main() {
 	//---------------------------------------------------
 	//Loops
 	// utils.ForLoop()
-	utils.ForLoopBreak()
+	// utils.ForLoopBreak()
+	// utils.ForLoopContinue()
+	// utils.ForLoopNested()
+	// utils.ForLoopLabels()
+	// utils.ForLoopLabelsBreak()
+	// utils.ForLoopLabelsOuter()
+	// utils.MoreExamples()
+	// utils.MoreExamplesSemicolonOmmitted()
+	utils.MultipleVariablesInForLoop()
 
 }
