@@ -77,6 +77,17 @@ func main() {
 	// utils.ForLoopLabelsOuter()
 	// utils.MoreExamples()
 	// utils.MoreExamplesSemicolonOmmitted()
-	utils.MultipleVariablesInForLoop()
+	// utils.MultipleVariablesInForLoop()
+
+	//---------------------------------------------------
+	//Switch
+	// utils.Switch()
+	// utils.DefaultCase()
+	// utils.MultipleExpressionInCase()
+	// utils.ExpressionlessSwitch()
+	// utils.Fallthrough()
+	// utils.FallthroughHappensEvenWhenTheCaseEvaluatesToFalse()
+	// utils.BreakingSwitch()
+	utils.BreakingTheOuterForLoop()
 
 }

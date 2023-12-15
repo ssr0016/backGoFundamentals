@@ -95,3 +95,8 @@ func MultipleVariablesInForLoop() {
 		fmt.Printf("%d * %d = %d\n", no, i, no*i)
 	}
 }
+
+// for {
+// 	// infinite loop
+// }
+
