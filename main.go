@@ -88,6 +88,17 @@ func main() {
 	// utils.Fallthrough()
 	// utils.FallthroughHappensEvenWhenTheCaseEvaluatesToFalse()
 	// utils.BreakingSwitch()
-	utils.BreakingTheOuterForLoop()
+	// utils.BreakingTheOuterForLoop()
+
+	//Array
+	// utils.ArrayDeclaration1()
+	// utils.ArrayDeclaration2()
+	// utils.ArrayDeclaration3()
+	// utils.ArrayDeclaration4()
+	// utils.ArrayAreValueTypes()
+	// utils.ImplementChangeLocalExample()
+	// utils.LengthOfAnArray()
+	// utils.IteratingArraysUsingRange1()
+	utils.IteratingArraysUsingRange2()
 
 }
