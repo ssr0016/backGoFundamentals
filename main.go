@@ -90,6 +90,7 @@ func main() {
 	// utils.BreakingSwitch()
 	// utils.BreakingTheOuterForLoop()
 
+	//---------------------------------------------------
 	//Array
 	// utils.ArrayDeclaration1()
 	// utils.ArrayDeclaration2()
@@ -99,6 +100,24 @@ func main() {
 	// utils.ImplementChangeLocalExample()
 	// utils.LengthOfAnArray()
 	// utils.IteratingArraysUsingRange1()
-	utils.IteratingArraysUsingRange2()
+	// utils.IteratingArraysUsingRange2()
 
+	//Multidimentional Arrays
+	// utils.MultidimentionalArrays()
+
+	//Slices
+	// utils.Slice()
+	// utils.SliceAnotherExampleAndScenario()
+	// utils.ModifyingASlice()
+	// utils.SliceAnotherExampleAndScenario2()
+	// utils.LenghtAndCapacityOfASlice()
+	// utils.CreatingASliceUsingMake()
+	// utils.AppendingToASlice1()
+	// utils.AppendingToASlice2()
+	// utils.AppendingToASlice3()
+	// utils.PassingASliceToAFunction()
+
+	//Multidimentional Slices
+	// utils.MultidimentionalSlices()
+	utils.MemoryOptimisation()
 }
