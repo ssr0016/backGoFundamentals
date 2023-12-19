@@ -119,5 +119,15 @@ func main() {
 
 	//Multidimentional Slices
 	// utils.MultidimentionalSlices()
-	utils.MemoryOptimisation()
+	// utils.MemoryOptimisation()
+
+	//---------------------------------------------------
+	//Variadic Function
+	// `utils.Find1(89, 89, 90, 95)
+	// utils.Find1(45, 56, 67, 45, 90, 109)
+	// utils.Find1(78, 38, 56, 98)
+	// utils.Find1(87)
+	// utils.ImplementationPassingASliceToAVariadicFunction()
+	// utils.Gotcha1()
+	utils.Gotcha2()
 }
