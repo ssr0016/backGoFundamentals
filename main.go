@@ -129,5 +129,20 @@ func main() {
 	// utils.Find1(87)
 	// utils.ImplementationPassingASliceToAVariadicFunction()
 	// utils.Gotcha1()
-	utils.Gotcha2()
+	// utils.Gotcha2()
+
+	//---------------------------------------------------
+	//Maps
+	// utils.CreateAMap()
+	// utils.AddingItemsToAMap()
+	// utils.InitializeAMapDuringDeclarationItself()
+	// utils.RetrievingValueForAKeyFromAMap()
+	// utils.IfElementIsNotPresentINAMap()
+	// utils.CheckingIfAKeyExists()
+	// utils.IterateOverAllElementsInAMap()
+	// utils.DeletingItemsFromAMap()
+	// utils.MapOfStructs()
+	// utils.LengthOfTheMap()
+	utils.MapsAreReferenceTypes()
+
 }
