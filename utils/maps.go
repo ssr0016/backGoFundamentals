@@ -147,13 +147,13 @@ func MapsAreReferenceTypes() {
 
 // Maps can’t be compared using the == operator. The == can be only used to check if a map is nil.
 func MapsEquality() {
-	map1 := map[string]int{
-		"one": 1,
-		"two": 2,
-	}
+	// map1 := map[string]int{
+	// 	"one": 1,
+	// 	"two": 2,
+	// }
 
-	map2 := map1
-	if map1 == map2 {
+	// map2 := map1
+	// if map1 == map2 {
 
-	}
+	// }
 }

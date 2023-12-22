@@ -143,6 +143,20 @@ func main() {
 	// utils.DeletingItemsFromAMap()
 	// utils.MapOfStructs()
 	// utils.LengthOfTheMap()
-	utils.MapsAreReferenceTypes()
+	// utils.MapsAreReferenceTypes()
 
+	//---------------------------------------------------
+	//Strings
+	// utils.Strings()
+	// utils.AccesingIndividualBytesOfAString()
+	// utils.AccessingIndividualCharactersOfAString()
+	// utils.Rune()
+	// utils.AccessingIndividualRunesUsingForRangeLoop()
+	// utils.CreatingAStringFromSliceOfBytes()
+	// utils.DecimalEquivalentOfHexValues()
+	// utils.CreatingAStringFromSliceOfRunes()
+	// utils.StringLength()
+	// utils.StringComparison()
+	// utils.StringConcatenation()
+	utils.StringsAreImmutable()
 }
