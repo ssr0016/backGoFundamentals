@@ -145,7 +145,7 @@ func main() {
 	// utils.LengthOfTheMap()
 	// utils.MapsAreReferenceTypes()
 
-	//---------------------------------------------------
+	// ---------------------------------------------------
 	//Strings
 	// utils.Strings()
 	// utils.AccesingIndividualBytesOfAString()
@@ -158,5 +158,19 @@ func main() {
 	// utils.StringLength()
 	// utils.StringComparison()
 	// utils.StringConcatenation()
-	utils.StringsAreImmutable()
+	// utils.StringsAreImmutable()
+
+	// ---------------------------------------------------
+	// Pointers
+	// utils.DeclaringPointers()
+	// utils.ZeroValueOfApointer()
+	// utils.CreatingPointersUsingTheNewFunction()
+	// utils.DereferencingAPointer1()
+	// utils.DereferencingAPointer2()
+	// utils.PassingPointerToAFunction()
+	// utils.ReturningPointerFromAFunctions()
+	utils.DoNotPassAPointerToAnArrayAsAnArgumentToAFunction1()
+	utils.DoNotPassAPointerToAnArrayAsAnArgumentToAFunction2()
+	utils.DoNotPassAPointerToAnArrayAsAnArgumentToAFunction3() // it is the best approach wheng  using array
+
 }
