@@ -1,6 +1,8 @@
 package main
 
-import "goFundamental/utils"
+import (
+	"goFundamental/utils"
+)
 
 func main() {
 	//---------------------------------------------------
@@ -169,8 +171,22 @@ func main() {
 	// utils.DereferencingAPointer2()
 	// utils.PassingPointerToAFunction()
 	// utils.ReturningPointerFromAFunctions()
-	utils.DoNotPassAPointerToAnArrayAsAnArgumentToAFunction1()
-	utils.DoNotPassAPointerToAnArrayAsAnArgumentToAFunction2()
-	utils.DoNotPassAPointerToAnArrayAsAnArgumentToAFunction3() // it is the best approach wheng  using array
+	// utils.DoNotPassAPointerToAnArrayAsAnArgumentToAFunction1()
+	// utils.DoNotPassAPointerToAnArrayAsAnArgumentToAFunction2()
+	// utils.DoNotPassAPointerToAnArrayAsAnArgumentToAFunction3() // it is the best approach wheng  using array
+
+	// ---------------------------------------------------
+	//Structs
+	// utils.DeclaringAStruct()
+	// utils.CreatingAnonymousStructs()
+	// utils.AccessingIndividualFieldsOfAStruct()
+	// utils.ZeroValueOfAStruct()
+	// utils.PointersToAStruct()
+	// utils.AnonymousFields()
+	// utils.NestedStructs()
+
+	//exported structs
+	// utils.ExportedStructsAndFields()
+	utils.StructsEquality()
 
 }
