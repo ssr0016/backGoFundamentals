@@ -1,8 +1,6 @@
 package main
 
-import (
-	"goFundamental/utils"
-)
+import "goFundamental/utils"
 
 func main() {
 	//---------------------------------------------------
@@ -187,6 +185,17 @@ func main() {
 
 	//exported structs
 	// utils.ExportedStructsAndFields()
-	utils.StructsEquality()
+	// utils.StructsEquality()
+
+	// ---------------------------------------------------
+	//Methods
+	// utils.CallingDisplaySalaryMethods()
+	// utils.CallingDisplaySalaryFunction()
+	// utils.CallingRectangleAndCicleTypeUsingMethod()
+	// utils.CallingPointersRecieversVsValueReceivers()
+	// utils.CallingMethodsOfAnonymousStructFields()
+	// utils.CallingValueRecieversInMethodsVsValueArgumentsInFunctions()
+	// utils.CallingPointerRecieversInMethodsVsPointerArgumentsInFunctions()
+	utils.MethodsWithNonStructReceivers()
 
 }

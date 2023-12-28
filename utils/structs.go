@@ -217,20 +217,20 @@ func StructsEquality() {
 }
 
 // In the program above image struct type contains a field data which is of type map. maps are not comparable, hence image1 and image2 cannot be compared. If you run this program, the compilation will fail with error
-type image struct {
-	data map[int]int
-}
+// type image struct {
+// 	data map[int]int
+// }
 
-func StructvariablesAreNotComparableIfTheyContainFieldsThatAreNotComparable() {
-	image1 := image{
-		data: map[int]int{
-			0: 155,
-		}}
-	image2 := image{
-		data: map[int]int{
-			0: 155,
-		}}
-	if image1 == image2 {
-		fmt.Println("image1 and image2 are equal")
-	}
-}
+// func StructvariablesAreNotComparableIfTheyContainFieldsThatAreNotComparable() {
+// 	image1 := image{
+// 		data: map[int]int{
+// 			0: 155,
+// 		}}
+// 	image2 := image{
+// 		data: map[int]int{
+// 			0: 155,
+// 		}}
+// 	if image1 == image2 {
+// 		fmt.Println("image1 and image2 are equal")
+// 	}
+// }
