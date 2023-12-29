@@ -196,6 +196,16 @@ func main() {
 	// utils.CallingMethodsOfAnonymousStructFields()
 	// utils.CallingValueRecieversInMethodsVsValueArgumentsInFunctions()
 	// utils.CallingPointerRecieversInMethodsVsPointerArgumentsInFunctions()
-	utils.MethodsWithNonStructReceivers()
+	// utils.MethodsWithNonStructReceivers()
 
+	// ---------------------------------------------------
+	//Interfaces1
+	// utils.DeclaringAndImplementingAnInterface()
+	// utils.PracticalUseOfAnInterface()
+	// utils.PracticalUseOfAnInterface1()
+	// utils.InterfaceInternalRepresentation()
+	// utils.EmptyInterface()
+	// utils.TypeAssertion1()
+	// utils.TypeSwitch()
+	utils.TypeSwitch1()
 }
