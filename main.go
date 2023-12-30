@@ -207,5 +207,12 @@ func main() {
 	// utils.EmptyInterface()
 	// utils.TypeAssertion1()
 	// utils.TypeSwitch()
-	utils.TypeSwitch1()
+	// utils.TypeSwitch1()
+
+	// ---------------------------------------------------
+	//Interfaces2
+	// utils.ImplementingInterfacesUsingPointerReceiversVsValueReceivers()
+	// utils.ImplementingMultipleInterfaces()
+	// utils.EmbeddingInterfaces()
+	utils.ZeroValueOfInterface()
 }
