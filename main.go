@@ -220,6 +220,13 @@ func main() {
 	// Concurrency
 	// 1. Goroutines
 	// utils.Goroutine1()
-	utils.StartingMultipleGoroutines()
+	// utils.StartingMultipleGoroutines()
 
+	// 2. Channels
+	// utils.DeclaringChannels()
+	// utils.ChannelExampleProgram()
+	// utils.AnotherExampleForChannels()
+	// utils.UndirectionalChannels()
+	// utils.ClosingChannelsAndForRangeLoopsOnChannels()
+	utils.AnotherExampleForChannels1()
 }
