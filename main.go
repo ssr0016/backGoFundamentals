@@ -228,5 +228,15 @@ func main() {
 	// utils.AnotherExampleForChannels()
 	// utils.UndirectionalChannels()
 	// utils.ClosingChannelsAndForRangeLoopsOnChannels()
-	utils.AnotherExampleForChannels1()
+	// utils.AnotherExampleForChannels1()
+
+	// 3. Buffered Channels
+	// utils.BufferedChannelAndWorkerPoolsExample()
+	// utils.WriteImplementation()
+	// utils.Deadlock()
+	// utils.ClosingBufferedChannels()
+	// utils.RangeCloringBufferedChannels()
+	// utils.LengthVsCapacity()
+	// utils.WaitGroup()
+	utils.WorkerPoolExample()
 }
