@@ -238,5 +238,12 @@ func main() {
 	// utils.RangeCloringBufferedChannels()
 	// utils.LengthVsCapacity()
 	// utils.WaitGroup()
-	utils.WorkerPoolExample()
+	// utils.WorkerPoolExample()
+
+	// 4. Select
+	// utils.SelectExample()
+	// utils.SelectDefaultCase()
+	// utils.SelectDeadlockAndDefaultAndDefaultCase()
+	// utils.SelectDeadlockAndDefaultAndDefaultCase1()
+	utils.RandomSelection()
 }
