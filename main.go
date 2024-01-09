@@ -245,5 +245,10 @@ func main() {
 	// utils.SelectDefaultCase()
 	// utils.SelectDeadlockAndDefaultAndDefaultCase()
 	// utils.SelectDeadlockAndDefaultAndDefaultCase1()
-	utils.RandomSelection()
+	// utils.RandomSelection()
+
+	// 5. Mutex
+	// utils.ProgramWithARaceCondition()
+	// utils.SolvingTheRaceConditionUsingAMutex()
+	utils.SolvingTheRaceConditionUsingChannel()
 }
