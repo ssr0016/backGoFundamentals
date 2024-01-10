@@ -250,5 +250,9 @@ func main() {
 	// 5. Mutex
 	// utils.ProgramWithARaceCondition()
 	// utils.SolvingTheRaceConditionUsingAMutex()
-	utils.SolvingTheRaceConditionUsingChannel()
+	// utils.SolvingTheRaceConditionUsingChannel()
+
+	// ==========================================
+	// Structs Instead of Classes - OOP in Go
+	utils.ImplementingEmployeeStructs()
 }
