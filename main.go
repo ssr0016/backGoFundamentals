@@ -254,5 +254,9 @@ func main() {
 
 	// ==========================================
 	// Structs Instead of Classes - OOP in Go
-	utils.ImplementingEmployeeStructs()
+	// utils.ImplementingEmployeeStructs()
+
+	// ==========================================
+	// Composition Instead of Inheritance - OOP in Go
+	utils.CompositionByEmbeddingStructs()
 }
