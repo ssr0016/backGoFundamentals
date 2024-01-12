@@ -31,12 +31,12 @@ func (b blogPost) details() {
 }
 
 type website struct {
-	blogPost []blogPost
+	blogPosts []blogPost
 }
 
 func (w website) contents() {
 	fmt.Println("Contents of Website\n")
-	for _, v := range w.blogPost {
+	for _, v := range w.blogPosts {
 		v.details()
 		fmt.Println()
 	}
@@ -64,7 +64,7 @@ func CompositionByEmbeddingStructs() {
 		author1,
 	}
 	w := website{
-		blogPost: []blogPost{blogPost1, blogPost2, blogPost3},
+		blogPosts: []blogPost{blogPost1, blogPost2, blogPost3},
 	}
 	w.contents()
 

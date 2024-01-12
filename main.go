@@ -258,5 +258,9 @@ func main() {
 
 	// ==========================================
 	// Composition Instead of Inheritance - OOP in Go
-	utils.CompositionByEmbeddingStructs()
+	// utils.CompositionByEmbeddingStructs()
+
+	// ==========================================
+	// Polymorphism - OOP in Go
+	utils.PolymorphismImplementation()
 }
