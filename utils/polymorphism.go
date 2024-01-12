@@ -39,6 +39,20 @@ func (tm TimeAndMaterial) source() string {
 	return tm.projectName
 }
 
+type Advertisement struct {
+	adName     string
+	CPC        int
+	noOfClicks int
+}
+
+func (a Advertisement) calculate() int {
+	return a.CPC * a.noOfClicks
+}
+
+func (a Advertisement) source() string {
+	return a.adName
+}
+
 func calculateNetIncome(ic []Income) {
 	var netincome int = 0
 	for _, income := range ic {
@@ -52,6 +66,8 @@ func PolymorphismImplementation() {
 	project1 := FixedBilling{projectName: "Project1", biddedAmount: 5000}
 	project2 := FixedBilling{projectName: "Project2", biddedAmount: 100000}
 	project3 := TimeAndMaterial{projectName: "Project3", noOfHours: 160, hourlyRate: 25}
-	incomeStreams := []Income{project1, project2, project3}
+	bannerAd := Advertisement{adName: "BannerAd", CPC: 5, noOfClicks: 5000}
+	popupAd := Advertisement{adName: "PopupAd", CPC: 2, noOfClicks: 2000}
+	incomeStreams := []Income{project1, project2, project3, bannerAd, popupAd}
 	calculateNetIncome(incomeStreams)
 }
