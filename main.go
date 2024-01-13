@@ -252,15 +252,26 @@ func main() {
 	// utils.SolvingTheRaceConditionUsingAMutex()
 	// utils.SolvingTheRaceConditionUsingChannel()
 
+	// Object Oriented Programming
 	// ==========================================
-	// Structs Instead of Classes - OOP in Go
+	// 1. Structs Instead of Classes - OOP in Go
 	// utils.ImplementingEmployeeStructs()
 
 	// ==========================================
-	// Composition Instead of Inheritance - OOP in Go
+	// 2. Composition Instead of Inheritance - OOP in Go
 	// utils.CompositionByEmbeddingStructs()
 
 	// ==========================================
-	// Polymorphism - OOP in Go
-	utils.PolymorphismImplementation()
+	// 3. Polymorphism - OOP in Go
+	// utils.PolymorphismImplementation()
+
+	// ==========================================
+	// Defer and Error Handling
+	// 1. Defer
+	// utils.Defer()
+	// utils.DeferredMethods()
+	// utils.ArgumentsEvaluation()
+	// utils.StackOfDefers()
+	utils.PracticalUserOfDefer()
+
 }
