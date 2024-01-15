@@ -1,6 +1,8 @@
 package main
 
-import "goFundamental/utils"
+import (
+	"goFundamental/utils"
+)
 
 func main() {
 	//---------------------------------------------------
@@ -272,6 +274,13 @@ func main() {
 	// utils.DeferredMethods()
 	// utils.ArgumentsEvaluation()
 	// utils.StackOfDefers()
-	utils.PracticalUserOfDefer()
+	// utils.PracticalUserOfDefer()
+
+	// 2. Error Handling
+	// utils.ErrorHandlingExample()
+	// utils.ErrorTypeRepresentation()
+	// utils.RetrievingMoreInformationUsingMethods()
+	// utils.DirectComparison()
+	utils.DoNotIgnoreErrors()
 
 }
