@@ -281,6 +281,12 @@ func main() {
 	// utils.ErrorTypeRepresentation()
 	// utils.RetrievingMoreInformationUsingMethods()
 	// utils.DirectComparison()
-	utils.DoNotIgnoreErrors()
+	// utils.DoNotIgnoreErrors()
+
+	// 3. Custom Error
+	// utils.ErrorCustomImplementation()
+	// utils.ErrorCustomImplementation2()
+	// utils.ErrorCustomImplementation3()
+	utils.RectAreaImplementation()
 
 }
