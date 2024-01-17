@@ -1,8 +1,6 @@
 package main
 
-import (
-	"goFundamental/utils"
-)
+import "goFundamental/utils"
 
 func main() {
 	//---------------------------------------------------
@@ -287,6 +285,10 @@ func main() {
 	// utils.ErrorCustomImplementation()
 	// utils.ErrorCustomImplementation2()
 	// utils.ErrorCustomImplementation3()
-	utils.RectAreaImplementation()
+	// utils.RectAreaImplementation()
+
+	// 4. Error Wrapping
+	// utils.ErrorWrappingExample()
+	utils.AsFunction()
 
 }
