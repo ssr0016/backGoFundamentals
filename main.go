@@ -289,6 +289,15 @@ func main() {
 
 	// 4. Error Wrapping
 	// utils.ErrorWrappingExample()
-	utils.AsFunction()
+	// utils.AsFunction()
+
+	//5. Panic
+	// utils.PanicAndRecover()
+	// utils.ImplementSlicePanic()
+	// utils.DeferCallsDuringAPanic()
+	// utils.RecoveringFromAPanic()
+	// utils.ImplementRecoverInvalidAccess()
+	// utils.GettingStackTraceAfterRecover()
+	utils.PanicRecoverAndGoroutines()
 
 }
