@@ -298,6 +298,16 @@ func main() {
 	// utils.RecoveringFromAPanic()
 	// utils.ImplementRecoverInvalidAccess()
 	// utils.GettingStackTraceAfterRecover()
-	utils.PanicRecoverAndGoroutines()
+	// utils.PanicRecoverAndGoroutines()
+
+	// ===========================================
+	// First Class Functions
+	// utils.UserDefinedFunctionTypes()
+	// utils.PassingFunctionsAsArgumentsToOtherFunctions()
+	// utils.ReturningFunctionsFromOtherFunctions()
+	// utils.Closures()
+	// utils.Closures1()
+	// utils.Closures2()
+	utils.Closures3()
 
 }
