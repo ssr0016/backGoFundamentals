@@ -308,6 +308,14 @@ func main() {
 	// utils.Closures()
 	// utils.Closures1()
 	// utils.Closures2()
-	utils.Closures3()
+	// utils.Closures3()
+
+	// ============================================
+	// Reflection
+	// utils.ReflectionExample()
+	// utils.ReflectionExample1()
+	// utils.NumFieldAndFieldMethods()
+	// utils.IntAndStringMethods()
+	utils.ReflectionFinalProgram()
 
 }
